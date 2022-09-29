@@ -8,15 +8,15 @@ function Navbar() {
     }
 
     return (
-        <div className="flex gap-4 text-white justify-between items-center h-24 max-w-[1240px] m-auto px-4">
+        <div className="flex gap-4 text-white justify-between items-center h-24 max-w-[1240px] mx-auto px-4">
             <h1
                 className={
                     nav
                         ? 'w-full text-1xl font-bold text-[#8cecff] sm:text-2xl md:text-3xl ease-in-out duration-500'
-                        : 'w-full text-1xl font-bold text-[#8cecff] sm:text-2xl md:text-3xl opacity-0'
+                        : 'w-full text-1xl font-bold text-[#8cecff] sm:text-2xl md:text-3xl opacity-0 ease-in-out duration-500'
                 }
             >
-                TAILWIND-REACT-CARS
+                TAILWIND REACT CARS
             </h1>
             <ul className="hidden md:flex ">
                 <li className="p-4">Home</li>
@@ -36,7 +36,7 @@ function Navbar() {
                 className={
                     !nav
                         ? 'fixed h-full left-0 top-0 w-[60%] border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500'
-                        : 'fixed left-[-100%]'
+                        : 'ease-in-out duration-500 fixed left-[-100%]'
                 }
             >
                 {/* <h1 className="w-full text-3xl font-bold m-4 text-[#8cecff]">
