@@ -18,18 +18,18 @@ function Navbar() {
             >
                 TAILWIND REACT CARS
             </h1>
-            <ul className="hidden md:flex ">
-                <li className="p-4">Home</li>
-                <li className="p-4">Company</li>
-                <li className="p-4">Recources</li>
-                <li className="p-4">About</li>
-                <li className="p-4">Contact</li>
+            <ul className="hidden md:flex">
+                <li className="p-4 cursor-pointer">Home</li>
+                <li className="p-4 cursor-pointer">Company</li>
+                <li className="p-4 cursor-pointer">Recources</li>
+                <li className="p-4 cursor-pointer">About</li>
+                <li className="p-4 cursor-pointer">Contact</li>
             </ul>
             <div onClick={handleNav} className="block md:hidden">
                 {!nav ? (
-                    <AiOutlineClose size={20} />
+                    <AiOutlineClose size={20} className="cursor-pointer" />
                 ) : (
-                    <AiOutlineMenu size={20} />
+                    <AiOutlineMenu size={20} className="cursor-pointer" />
                 )}
             </div>
             <div
@@ -44,10 +44,18 @@ function Navbar() {
                 </h1> */}
 
                 <ul className="uppercase p-4">
-                    <li className="p-4 border-b border-gray-600">Home</li>
-                    <li className="p-4 border-b border-gray-600">Company</li>
-                    <li className="p-4 border-b border-gray-600">Recources</li>
-                    <li className="p-4 border-b border-gray-600">About</li>
+                    <li className="p-4 border-b border-gray-600 cursor-pointer">
+                        Home
+                    </li>
+                    <li className="p-4 border-b border-gray-600 cursor-pointer">
+                        Company
+                    </li>
+                    <li className="p-4 border-b border-gray-600 cursor-pointer">
+                        Recources
+                    </li>
+                    <li className="p-4 border-b border-gray-600 cursor-pointer">
+                        About
+                    </li>
                     <li className="p-4">Contact</li>
                 </ul>
             </div>
