@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/tailwind-website/static/css/main.7845ee6e.css",
+    "main.js": "/tailwind-website/static/js/main.0a70bdb0.js",
+    "static/media/car.png": "/tailwind-website/static/media/car.61cb0bc765532d4db88d.png",
+    "static/media/business.png": "/tailwind-website/static/media/business.a13a3427fb28e1363ac3.png",
+    "static/media/comfort.png": "/tailwind-website/static/media/comfort.f1e5738408791877f982.png",
+    "static/media/econom.png": "/tailwind-website/static/media/econom.b259ed13a7a4e1a63567.png",
+    "index.html": "/tailwind-website/index.html",
+    "main.7845ee6e.css.map": "/tailwind-website/static/css/main.7845ee6e.css.map",
+    "main.0a70bdb0.js.map": "/tailwind-website/static/js/main.0a70bdb0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7845ee6e.css",
+    "static/js/main.0a70bdb0.js"
+  ]
+}
